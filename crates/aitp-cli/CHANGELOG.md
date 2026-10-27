@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.24.0](https://github.com/agentidentitytrustprotocol/aitp-rs/compare/aitp-cli-v0.23.0...aitp-cli-v0.24.0) - 2026-10-27
+
+### Fixed
+
+- *(serve)* drain an over-limit body before the 413 ([#380](https://github.com/agentidentitytrustprotocol/aitp-rs/pull/380)) ([#386](https://github.com/agentidentitytrustprotocol/aitp-rs/pull/386))
+
+### Other
+
+- [**breaking**] no pre-1.0 crate's type in the stable surface (RS-RC5) ([#415](https://github.com/agentidentitytrustprotocol/aitp-rs/pull/415))
+- [**breaking**] every stable struct and enum is non_exhaustive, private or classified exhaustive (RS-RC3) ([#413](https://github.com/agentidentitytrustprotocol/aitp-rs/pull/413))
+
 ## [0.23.0](https://github.com/agentidentitytrustprotocol/aitp-rs/compare/aitp-cli-v0.22.0...aitp-cli-v0.23.0) - 2026-10-25
 
 ### Added
